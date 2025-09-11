@@ -62,6 +62,9 @@ myGame.Score(1), Color.RoyalBlue, "GameFont", 0, 40);
 
 			//Draw onto the screen
 			SwinGame.RefreshScreen(60);
+			SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), top.CardIndex, 521, 153);
+			SwinGame.drawcell (SwinGame.BitmapNamed ("Cards"), 52, 160, 50);
+			SwinGame.RefreshScreen (60);
 		}
 
 		/// <summary>
