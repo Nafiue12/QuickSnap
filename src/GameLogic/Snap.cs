@@ -38,6 +38,8 @@ namespace CardGames.GameLogic
 		{
 			_deck = new Deck ();
 			_gameTimer = SwinGame.CreateTimer ();
+			Console.WriteLine("Hi");
+
 		}
 
 		/// <summary>
@@ -94,6 +96,7 @@ namespace CardGames.GameLogic
 
 				FlipNextCard ();
 				_gameTimer.Start();		// Flip the first card...
+				Console.WriteLine("Hi");//Hi
 			}
 		}
 			
@@ -118,6 +121,7 @@ namespace CardGames.GameLogic
 				_gameTimer.Reset();
 				
 				FlipNextCard();
+				Console.WriteLine("Hi");
 			}
 			//TODO: implement update to automatically slip cards!
 		}
